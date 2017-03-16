@@ -1,0 +1,20 @@
+{
+  "name": "exchange-ledger",
+  "version": "1.0.0",
+  "description": "a class for creating ledgers to manage exchange trading of currencies and other arbitrary exchangeable entities",
+  "main": "index.js",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/bitstrider/exchange-ledger"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "start": "node index.js"
+  },
+  "author": "Jason Yung",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
